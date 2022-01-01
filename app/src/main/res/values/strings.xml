@@ -9,4 +9,11 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_logo">App logo</string>
+    <string name="pomodoroapp">PomodoroApp</string>
+    <string name="by_grupo_4">By: Grupo 4</string>
+    <string name="inicio_de_sesion">Inicio de Sesión</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
 </resources>
