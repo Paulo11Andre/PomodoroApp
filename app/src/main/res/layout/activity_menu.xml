@@ -109,7 +109,7 @@
                 android:id="@+id/buttonConfiguracion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="perfil"
+                android:onClick="configuracion"
                 android:text="@string/configuracion"
                 android:textColor="#FFFFFF"
                 app:icon="@android:drawable/ic_menu_manage"

@@ -26,4 +26,9 @@
     <string name="nuevo_pomodoro">Nuevo pomodoro</string>
     <string name="imagen_de_perfil_del_usuario">Imagen de perfil del usuario</string>
     <string name="configuracion">Configuración</string>
+    <string name="nombre_de_usuario_et">Nombre de usuario:</string>
+    <string name="nombre_et">Nombre:</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo_et">Correo:</string>
+    <string name="correo">Correo</string>
 </resources>
