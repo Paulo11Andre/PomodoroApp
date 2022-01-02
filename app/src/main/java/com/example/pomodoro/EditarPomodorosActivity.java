@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class CalendarioActivity extends AppCompatActivity {
+public class EditarPomodorosActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendario);
+        setContentView(R.layout.activity_editar_pomodoros);
         getSupportActionBar().hide();
     }
 

@@ -25,11 +25,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/inicio_de_sesion"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:text="Inicio de sesión" />
 
     <TextView
         android:id="@+id/textView4"
@@ -93,8 +95,25 @@
         android:layout_marginTop="24dp"
         android:onClick="iniciarSesion"
         android:text="@string/iniciar_sesion"
+        android:textAllCaps="false"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editContrasena" />
+
+    <Button
+        android:id="@+id/buttonSalir"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:onClick="salir"
+        android:text="@string/salir"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

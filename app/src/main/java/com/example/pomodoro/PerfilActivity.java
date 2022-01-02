@@ -16,5 +16,10 @@ public class PerfilActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil);
+        getSupportActionBar().hide();
+    }
+
+    public void volver(View view){
+        finish();
     }
 }

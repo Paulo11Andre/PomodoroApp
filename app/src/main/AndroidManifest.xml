@@ -9,12 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pomodoro">
+        <activity android:name=".EditarPomodorosActivity"></activity>
+        <activity android:name=".ComenzarPomodoroActivity" />
         <activity
             android:name=".PerfilActivity"
             android:label="@string/title_activity_perfil"
-            android:theme="@style/Theme.Pomodoro.NoActionBar"></activity>
+            android:theme="@style/Theme.Pomodoro.NoActionBar" />
         <activity android:name=".CalendarioActivity" />
-        <activity android:name=".ComenzarPomodoroActivity" />
+        <activity android:name=".MenuActivity" />
         <activity android:name=".NuevoPomodoroActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".InicioActivity">

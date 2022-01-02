@@ -15,9 +15,13 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
-    public void iniciarSesion (View view ) throws InterruptedException {
-        Intent intent = new Intent(getApplicationContext(), ComenzarPomodoroActivity.class);
+    public void iniciarSesion(View view) throws InterruptedException {
+        Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
         startActivity(intent);
+        finish();
+    }
+
+    public void salir(View view){
         finish();
     }
 }

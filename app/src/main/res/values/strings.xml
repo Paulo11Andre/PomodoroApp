@@ -16,4 +16,13 @@
     <string name="nombre_de_usuario">Nombre de usuario</string>
     <string name="contrasena">Contraseña</string>
     <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="salir">Salir</string>
+    <string name="calendario_de_sesiones">Calendario de sesiones</string>
+    <string name="volver">Volver</string>
+    <string name="menu">Menú</string>
+    <string name="comenzar_pomodoro">Comenzar Pomodoro</string>
+    <string name="editar_pomodoros">Editar Pomodoros</string>
+    <string name="perfil">Perfil</string>
+    <string name="nuevo_pomodoro">Nuevo pomodoro</string>
+    <string name="imagen_de_perfil_del_usuario">Imagen de perfil del usuario</string>
 </resources>
