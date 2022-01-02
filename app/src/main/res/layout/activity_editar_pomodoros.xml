@@ -24,6 +24,7 @@
         android:onClick="volver"
         android:text="@string/volver"
         android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintStart_toStartOf="@+id/view3"

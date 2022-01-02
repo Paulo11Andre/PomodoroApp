@@ -17,6 +17,7 @@
         android:onClick="salir"
         android:text="@string/salir"
         android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +71,9 @@
                 android:onClick="comenzarPomodoro"
                 android:text="@string/comenzar_pomodoro"
                 android:textAlignment="center"
-                app:icon="@android:drawable/ic_media_play" />
+                android:textColor="#FFFFFF"
+                app:icon="@android:drawable/ic_media_play"
+                app:iconTint="#FFFFFF" />
 
             <Button
                 android:id="@+id/buttonEditarPomodoros"
@@ -78,7 +81,9 @@
                 android:layout_height="wrap_content"
                 android:onClick="editarPomodoros"
                 android:text="@string/editar_pomodoros"
-                app:icon="@android:drawable/ic_menu_edit" />
+                android:textColor="#FFFFFF"
+                app:icon="@android:drawable/ic_menu_edit"
+                app:iconTint="#FFFFFF" />
 
             <Button
                 android:id="@+id/buttonCalendario"
@@ -86,7 +91,9 @@
                 android:layout_height="wrap_content"
                 android:onClick="calendario"
                 android:text="@string/calendario_de_sesiones"
-                app:icon="@android:drawable/ic_menu_agenda" />
+                android:textColor="#FFFFFF"
+                app:icon="@android:drawable/ic_menu_agenda"
+                app:iconTint="#FFFFFF" />
 
             <Button
                 android:id="@+id/buttonPerfil"
@@ -94,7 +101,19 @@
                 android:layout_height="wrap_content"
                 android:onClick="perfil"
                 android:text="@string/perfil"
-                app:icon="@android:drawable/ic_dialog_info" />
+                android:textColor="#FFFFFF"
+                app:icon="@android:drawable/ic_dialog_info"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/buttonConfiguracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="perfil"
+                android:text="@string/configuracion"
+                android:textColor="#FFFFFF"
+                app:icon="@android:drawable/ic_menu_manage"
+                app:iconTint="#FFFFFF" />
         </LinearLayout>
     </ScrollView>
 

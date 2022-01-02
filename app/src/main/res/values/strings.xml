@@ -12,7 +12,7 @@
     <string name="app_logo">App logo</string>
     <string name="pomodoroapp">PomodoroApp</string>
     <string name="by_grupo_4">By: Grupo 4</string>
-    <string name="inicio_de_sesion">Inicio de Sesión</string>
+    <string name="inicio_de_sesion">Inicio de sesión</string>
     <string name="nombre_de_usuario">Nombre de usuario</string>
     <string name="contrasena">Contraseña</string>
     <string name="iniciar_sesion">Iniciar sesión</string>
@@ -25,4 +25,5 @@
     <string name="perfil">Perfil</string>
     <string name="nuevo_pomodoro">Nuevo pomodoro</string>
     <string name="imagen_de_perfil_del_usuario">Imagen de perfil del usuario</string>
+    <string name="configuracion">Configuración</string>
 </resources>

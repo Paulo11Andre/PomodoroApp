@@ -6,13 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import java.util.Objects;
+
 public class MenuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        getSupportActionBar().hide();
+        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 
     public void salir(View view){
@@ -36,6 +38,11 @@ public class MenuActivity extends AppCompatActivity {
 
     public void perfil(View view) throws InterruptedException {
         Intent intent = new Intent(getApplicationContext(), PerfilActivity.class);
+        startActivity(intent);
+    }
+
+    public void configuracion(View view) throws InterruptedException {
+        Intent intent = new Intent(getApplicationContext(), ConfiguracionActivity.class);
         startActivity(intent);
     }
 

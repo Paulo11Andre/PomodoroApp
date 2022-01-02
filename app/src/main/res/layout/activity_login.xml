@@ -111,6 +111,7 @@
         android:onClick="salir"
         android:text="@string/salir"
         android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
