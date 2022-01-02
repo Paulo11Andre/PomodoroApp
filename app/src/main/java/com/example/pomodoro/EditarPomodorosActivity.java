@@ -1,10 +1,8 @@
 package com.example.pomodoro;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
-
 import java.util.Objects;
 
 public class EditarPomodorosActivity extends AppCompatActivity {

@@ -1,10 +1,8 @@
 package com.example.pomodoro;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-
 import java.util.Objects;
 
 public class InicioActivity extends AppCompatActivity {
