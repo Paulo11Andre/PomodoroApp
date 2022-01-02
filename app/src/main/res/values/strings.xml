@@ -31,4 +31,8 @@
     <string name="nombre">Nombre</string>
     <string name="correo_et">Correo:</string>
     <string name="correo">Correo</string>
+    <string name="sin_cuenta">¿No tienes una cuenta?</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="apellido">Apellido</string>
+    <string name="e_mail">E-mail</string>
 </resources>

@@ -21,6 +21,11 @@ public class LoginActivity extends AppCompatActivity {
         finish();
     }
 
+    public void crearCuenta(View view ) throws InterruptedException {
+        Intent intent = new Intent(getApplicationContext(), CrearCuentaActivity.class);
+        startActivity(intent);
+    }
+
     public void salir(View view){
         finish();
     }

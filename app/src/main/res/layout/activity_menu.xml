@@ -71,7 +71,8 @@
                 android:onClick="comenzarPomodoro"
                 android:text="@string/comenzar_pomodoro"
                 android:textAlignment="center"
-                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
+                android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_media_play"
                 app:iconTint="#FFFFFF" />
 
@@ -81,7 +82,8 @@
                 android:layout_height="wrap_content"
                 android:onClick="editarPomodoros"
                 android:text="@string/editar_pomodoros"
-                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
+                android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_menu_edit"
                 app:iconTint="#FFFFFF" />
 
@@ -91,7 +93,8 @@
                 android:layout_height="wrap_content"
                 android:onClick="calendario"
                 android:text="@string/calendario_de_sesiones"
-                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
+                android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_menu_agenda"
                 app:iconTint="#FFFFFF" />
 
@@ -101,7 +104,8 @@
                 android:layout_height="wrap_content"
                 android:onClick="perfil"
                 android:text="@string/perfil"
-                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
+                android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_dialog_info"
                 app:iconTint="#FFFFFF" />
 
@@ -111,7 +115,8 @@
                 android:layout_height="wrap_content"
                 android:onClick="configuracion"
                 android:text="@string/configuracion"
-                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
+                android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_menu_manage"
                 app:iconTint="#FFFFFF" />
         </LinearLayout>

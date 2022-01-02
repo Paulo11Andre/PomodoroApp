@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_pomodoro_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pomodoro">
+        <activity android:name=".CrearCuentaActivity"></activity>
         <activity android:name=".ConfiguracionActivity" />
         <activity android:name=".EditarPomodorosActivity" />
         <activity android:name=".ComenzarPomodoroActivity" />
@@ -20,6 +21,7 @@
         <activity android:name=".InicioActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
