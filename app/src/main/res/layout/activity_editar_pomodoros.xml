@@ -55,6 +55,9 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,9 +68,17 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <androidx.cardview.widget.CardView
+            <Button
+                android:id="@+id/buttonNuevoPomodoro"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
+                android:onClick="nuevoPomodoro"
+                android:text="@string/nuevo_pomodoro"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                app:icon="@android:drawable/ic_input_add"
+                app:iconTint="@color/purple_700" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

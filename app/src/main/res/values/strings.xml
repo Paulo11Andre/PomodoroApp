@@ -35,4 +35,5 @@
     <string name="crear_cuenta">Crear cuenta</string>
     <string name="apellido">Apellido</string>
     <string name="e_mail">E-mail</string>
+    <string name="apellido_et">Apellido:</string>
 </resources>
