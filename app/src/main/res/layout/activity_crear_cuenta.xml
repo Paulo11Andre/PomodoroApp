@@ -12,7 +12,6 @@
         android:layout_width="0dp"
         android:layout_height="64dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,6 +85,7 @@
                 android:id="@+id/editTextTextPersonName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/nombre"
@@ -97,6 +97,7 @@
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
                 android:text="@string/apellido"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -106,6 +107,7 @@
                 android:id="@+id/editTextTextPersonName2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/apellido"
@@ -117,6 +119,7 @@
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
                 android:text="@string/nombre_de_usuario"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -126,6 +129,7 @@
                 android:id="@+id/editTextTextPersonName3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/nombre_de_usuario"
@@ -137,6 +141,7 @@
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
                 android:text="@string/e_mail"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -146,16 +151,18 @@
                 android:id="@+id/editTextTextEmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/e_mail"
                 android:inputType="textEmailAddress"
-                android:textSize="24sp"
-                android:autofillHints="" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:text="@string/contrasena"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -165,12 +172,12 @@
                 android:id="@+id/editTextTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/contrasena"
                 android:inputType="textPassword"
                 android:textColor="@color/white"
-                android:textSize="24sp"
-                android:autofillHints="" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button5"

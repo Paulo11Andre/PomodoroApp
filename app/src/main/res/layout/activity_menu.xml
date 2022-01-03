@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6A6A6A"
+    android:background="@color/dark_gray_background"
     tools:context=".MenuActivity">
 
     <Button
@@ -68,57 +68,57 @@
                 android:id="@+id/buttonComenzarPomodoro"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:onClick="comenzarPomodoro"
                 android:text="@string/comenzar_pomodoro"
                 android:textAlignment="center"
-                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_media_play"
-                app:iconTint="#FFFFFF" />
+                app:iconTint="@color/purple_700" />
 
             <Button
                 android:id="@+id/buttonEditarPomodoros"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:onClick="editarPomodoros"
                 android:text="@string/editar_pomodoros"
-                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_menu_edit"
-                app:iconTint="#FFFFFF" />
+                app:iconTint="@color/purple_700" />
 
             <Button
                 android:id="@+id/buttonCalendario"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:onClick="calendario"
                 android:text="@string/calendario_de_sesiones"
-                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_menu_agenda"
-                app:iconTint="#FFFFFF" />
+                app:iconTint="@color/purple_700" />
 
             <Button
                 android:id="@+id/buttonPerfil"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:onClick="perfil"
                 android:text="@string/perfil"
-                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_dialog_info"
-                app:iconTint="#FFFFFF" />
+                app:iconTint="@color/purple_700" />
 
             <Button
                 android:id="@+id/buttonConfiguracion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:onClick="configuracion"
                 android:text="@string/configuracion"
-                android:backgroundTint="@color/ic_launcher_pomodoro_background"
                 android:textColor="@color/purple_700"
                 app:icon="@android:drawable/ic_menu_manage"
-                app:iconTint="#FFFFFF" />
+                app:iconTint="@color/purple_700" />
         </LinearLayout>
     </ScrollView>
 
