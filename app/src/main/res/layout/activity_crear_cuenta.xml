@@ -82,7 +82,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/crearNombreID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -104,7 +104,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/crearApellidoID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -126,7 +126,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/crearNombreUsuarioID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -148,7 +148,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/crearEMailID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -169,7 +169,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/crearContrasenaID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -180,7 +180,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonCrearCuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -193,7 +193,7 @@
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editContrasena" />
+                app:layout_constraintTop_toBottomOf="@+id/contrasenaID" />
         </LinearLayout>
     </ScrollView>
 
