@@ -21,6 +21,7 @@ public class MenuActivity extends AppCompatActivity {
 
     public void comenzarPomodoro(View view){
         Intent intent = new Intent(getApplicationContext(), ComenzarPomodoroActivity.class);
+
         startActivity(intent);
     }
 
